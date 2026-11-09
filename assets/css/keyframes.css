@@ -1,0 +1,35 @@
+/* FLOATING */
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-12px) ;
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+/* DIMLIGHT */
+
+@keyframes dimlight {
+
+    0% {
+        box-shadow: 0 0 5px #3c190c;
+        opacity: 0.4;
+    }
+
+    50% {
+        box-shadow: 0 0 5px #3c190c;
+        opacity: 0.9;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #3c190c;
+        opacity: 0.4;
+    }
+}
